@@ -3,9 +3,7 @@
  * Credit: https://github.com/jin-guo/SoftwareDesignCode/tree/master/module08/ca/mcgill/cs/swdesign/m8
  */
 public class McGill {
-	public static void main(String[] args)
-	{
-		
+	public static void main(String[] args){
 		University mcGill = new University("McGill");
 		
 		Faculty science = new Faculty("Science");
