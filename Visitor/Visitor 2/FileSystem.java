@@ -20,7 +20,16 @@ public class FileSystem {
         homeDirectory.add(musicFolder);
         homeDirectory.add(f4);
 
-        Visitor printVisitor = new PrintVisitor();
-        homeDirectory.accept(printVisitor);
+        File f5 = new File("how_to_save_the_world.pdf");
+        Directory secretDirectory = new HiddenDirectory("My Secret");
+        secretDirectory.add(f5);
+
+        // Visitor printVisitor = new PrintVisitor();
+        // homeDirectory.accept(printVisitor);
+        // secretDirectory.accept(printVisitor);
+
+        Visitor searchVisitor = new SearchVisitor("lonely_file.txt");
+        homeDirectory.accept(searchVisitor);
+        secretDirectory.accept(searchVisitor);
     }
 }
