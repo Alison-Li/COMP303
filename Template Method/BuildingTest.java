@@ -11,6 +11,7 @@ public class BuildingTest {
 
         Tower alisonTower = new Tower();
         System.out.println("The Alison Tower");
+        alisonTower.setPublicWork();
         alisonTower.constructBuilding();
     }
 }
