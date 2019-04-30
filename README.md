@@ -1,6 +1,7 @@
 # COMP303
 Winter 2019, Instructor: Jin Guo
 
+
 This repository contains implementations of different design patterns for pratice. Some are my own and others come from the course demo code, GeeksForGeeks, or Derek Banas on YouTube.
 
 With Observer Pattern and Visitor Pattern being the more difficult ones with different styles of implementation, I have included more than one example for each pattern.
