@@ -1,4 +1,4 @@
-# COMP303
+# COMP 303: Software Design
 Winter 2019, Instructor: Jin Guo
 
 
